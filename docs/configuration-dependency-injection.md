@@ -106,7 +106,4 @@ new ConfigurationBuilder()
                      optional: false, 
                      reloadOnChange: true)
         .Build() 
-
 ```
-
-which is the same as earlier.
