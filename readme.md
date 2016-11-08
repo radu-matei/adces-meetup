@@ -3,7 +3,7 @@ ADCES Meetup
 ASP.NET Core Routing, Configuration and Dependency Injection
 -----------------------------------------------------------
 
-The purpose of this workshop is to show how to get begin with ASP.NET Core, starting from empty applications, built from the command line, with the `dotnet new` command.
+The purpose of this workshop is to show how to begin with ASP.NET Core, starting from empty applications, built from the command line, with the `dotnet new` command.
 
 In the following documents, you will find basic information about the routing engine, how to store configuration in JSON files and about the dependency injection.
 
