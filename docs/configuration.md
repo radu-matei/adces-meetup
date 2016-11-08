@@ -54,7 +54,7 @@ Building the configurable Greeting service
 First of all, [follow all the steps in order to create an ASP .NET Core application with a `Startup` class from this tutorial](https://radu-matei.github.io/blog/aspnet-core-startup/), that means:
 
 - create new app using `dotnet new`
-- add the ` "Microsoft.AspNetCore.Server.Kestrel": "1.0.0"` NuGet package
+- add the ` "Microsoft.AspNetCore.Server.Kestrel": "1.0.1"` NuGet package
 - add an empty `Startup` class
 
 
@@ -68,7 +68,7 @@ Then, we create a new file, `greetings.json` in the same folder as our `Program.
     "default": "This is default!"
 }
 ```
-Now we need to add another NuGet package, `"Microsoft.Extensions.Configuration.Json": "1.0.0"` that will contain the necessary methods for using JSON files as configuration.
+Now we need to add another NuGet package, `"Microsoft.Extensions.Configuration.Json": "1.0.1"` that will contain the necessary methods for using JSON files as configuration.
 
 In `Startup` we create a property of type `IConfiguration` where we will keep our configuration files: `public IConfiguration Configuration { get;set; }`
 
