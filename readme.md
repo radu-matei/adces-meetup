@@ -12,3 +12,5 @@ ASP.NET Core Routing, Configuration and Dependency Injection
 [4. The Configuration Engine](docs/configuration.md)
 
 [5. Using Dependency Injection](docs/configuration-dependency-injection.md)
+
+[6. Inject Dependencies from JSON files](docs/inject-json-dependencies.md)
