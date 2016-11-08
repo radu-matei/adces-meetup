@@ -158,3 +158,20 @@ We also search for the default message in our JSON so that if the path does not 
 ```
 
 Then, depending on wether the route actually exists in our configuration file or not, we return either the message of that specific route, or the default message.
+
+If we run the application and open a browser, we can check if our routing works:
+
+```
+http://localhost:5000/hello - This should display Hello!
+http://localhost:5000/hi - This should display Hi!
+http://localhost:5000/bye - This should display Goodbye!
+http://localhost:5000/default or http://localhost:5000/anything-else - This should display This is default!
+```
+
+Without closing the application, go to `greeting.json` and either add a new key-value pair, or modify an existing one's value, save the file and navigate to that path.
+
+Normally, you should see that our application was able to load the configuration file without restarting or recompiling.
+
+
+> Our application works, but there is a lot of logic code in `Startup`, a place for configuration. 
+> [In the next article, we will use the dependency injection engine and extract the code from startup, make a service out of it and inject it in our application.](configuration-dependency-injection.md)
