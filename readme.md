@@ -8,3 +8,7 @@ ASP.NET Core Routing, Configuration and Dependency Injection
 [2. Building the most simple ASP.NET Core application](https://radu-matei.github.io/blog/aspnet-core-startup/)
 
 [3. The Routing Engine](docs/routing.md)
+
+[4. The Configuration Engine](docs/configuration.md)
+
+[5. Using Dependency Injection](docs/configuration-dependency-injection.md)
