@@ -21,7 +21,9 @@ So, a few basic facts about the new ASP.NET Core to get us started:
 
 
 
-Now that we have the basics out of the way, we can get started in talking about the stuff in the title
+Now that we have the basics out of the way, we can get started in talking about the stuff in the title.
 
 
 > If you want to [get started with the complete basics about ASP.NET Core, you can follow this article](https://radu-matei.github.io/blog/aspnet-core-getting-started/).
+
+Every code sample in this meetup will start from the empty application that is built when you run the `dotnet new` command, without using any template built by Visual Studio or using the `-t web` parameters and will walk you through adding the necessary components. 
