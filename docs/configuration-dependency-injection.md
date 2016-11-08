@@ -107,3 +107,5 @@ new ConfigurationBuilder()
                      reloadOnChange: true)
         .Build() 
 ```
+
+[You can find the completed project here](https://github.com/radu-matei/adces-meetup/tree/master/src/configuration).

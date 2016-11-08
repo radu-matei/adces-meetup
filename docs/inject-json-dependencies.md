@@ -180,4 +180,5 @@ This is a very basic and rudimentary way of injecting dependencies in the applic
 
  It is only a simple alternative to registering each service manually, in code, recompiling the entire application evey time you needed to swap some services. 
 
- > [This article first appeared on my blog](https://radu-matei.github.io/blog/aspnet-core-json-dependency-injection/)
+
+ [You can find the completed project here](https://github.com/radu-matei/adces-meetup/tree/master/src/inject-json-dependencies).
